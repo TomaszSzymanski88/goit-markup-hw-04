@@ -274,11 +274,9 @@ img {
 
 /* ==== ABOUT ==== */
 .about .container  {
-  display: flex;
-  align-items: center;
+
 }
 .studio-about {
-   margin-bottom: 50px;
   text-align: center;
   margin-right: auto;
 }
@@ -303,10 +301,8 @@ img {
 /* ==== OUR TEAM ====*/
 .our-team .container {
   background: #f5f4fa;
-  display: flex;
 }
 .studio-our-team {
-  display: flex;
   margin-bottom: 50px;
   text-align: center;
   margin-right: auto;
