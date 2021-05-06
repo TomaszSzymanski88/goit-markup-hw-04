@@ -30,6 +30,9 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+body {
+  margin: 0;
+}
 /* ==== HEADER ==== */
 .header .container {
   width: 1200px;
@@ -100,9 +103,11 @@ img {
 .smarthphone {
   margin-right: 10px;
 }
-.link-mail:hover, .link-mail:focus,
-.link-tel:hover, .link-tel:focus {
-  fill: var(--main-color)
+.link-mail:hover,
+.link-mail:focus,
+.link-tel:hover,
+.link-tel:focus {
+  fill: var(--main-color);
 }
 /* ==== END HEADER ==== */
 /* ==== MAIN ====*/
@@ -111,9 +116,10 @@ img {
 .hero {
   background: #2f303a;
   background-image: linear-gradient(
-  rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4)),
-   url('/goit-markup-hw-04/images/main/ImgOverlay.png');
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('/goit-markup-hw-04/images/main/ImgOverlay.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -355,10 +361,8 @@ img {
   box-shadow: 0px 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
 .content-team {
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px
 }
 .person-name {
   font-weight: 500;
@@ -381,8 +385,7 @@ img {
 }
 .social-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin-left: 30px;
 }
 .social-list-item {
   list-style: none;
@@ -391,15 +394,15 @@ img {
   display: flex;
   width: 44px;
   height: 44px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
   margin-left: 10px;
-  fill: #AFB1B8
+  fill: #afb1b8;
 }
 .social-list-link:hover {
-  fill: #FFFFFF;
-  background-color: var(--main-color)
+  fill: #ffffff;
+  background-color: var(--main-color);
 }
 /* ==== END OUR TEAM ==== */
 
@@ -422,19 +425,17 @@ img {
   list-style: none;
   justify-content: space-between;
 }
-.client-list-item-logo {
-  fill: #AFB1B8;
-  padding: 17px 32px 17px
-}
-.clients-list-item {
-  width: 170px;
-  height: 92px;
+.clients-logo {
+  width: 106px;
+  height: 60px;
   border: 1px solid #AFB1B8;
+  fill: #AFB1B8;
   border-radius: 4px;
+  padding: 18px 32px 14px 32px
 }
-.client-list-item-logo:hover,
-.client-list-item-logo:focus {
+.clients-logo:hover {
   fill: var(--main-color);
+  border: 1px solid var(--main-color)
 }
 /* ==== END NASI KLIENCI ==== */
 
@@ -447,11 +448,11 @@ img {
   margin: 0 auto;
 }
 .left-side {
- width: 246px;
+  width: 246px;
 }
 .center-side {
- width: 206px;
- padding-left: 70px; 
+  width: 206px;
+  padding-left: 70px;
 }
 .joinus {
   display: block;
@@ -461,7 +462,7 @@ img {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: var(--main-font);
 }
 .social-link-list-footer {
@@ -535,9 +536,11 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  background: rgba(255, 255, 255, 0.1);
 }
 .social-link-footer-item:hover {
-  fill: #FFFFFF;
-  background: var(--main-color)
+  fill: #ffffff;
+  background: var(--main-color);
 }
+
 /* ==== END FOOTER ==== */
